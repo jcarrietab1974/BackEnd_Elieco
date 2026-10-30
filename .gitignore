@@ -1,0 +1,13 @@
+# Dependencias
+node_modules/
+
+# Secretos y configuración local (NUNCA subir). La plantilla .env.example SÍ se versiona.
+.env
+.env.*
+!.env.example
+
+# Logs y temporales
+*.log
+npm-debug.log*
+.DS_Store
+coverage/
